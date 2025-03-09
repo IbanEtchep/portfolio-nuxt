@@ -1,0 +1,214 @@
+@import "../css/reset.css";
+
+:root {
+  --bg-primary: #fff;
+  --bg-secondary: #dfe4ea;
+  --text-color-primary: #2d3748;
+  --text-color-secondary: #595959;
+  --text-color-terciary: #0ea5e9;
+  --text-link-color: #2980b9;
+}
+
+.dark-mode {
+  --bg-primary: #022C43;
+  --bg-secondary: #053F5E;
+  --text-color-primary: #fff;
+  --text-color-secondary: #dfe4ea;
+  --text-color-terciary: #0ea5e9;
+  --text-link-color: #2980b9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: var(--bg-secondary);
+  color: var(--text-color-secondary);
+  font-weight: 600;
+  margin-bottom: 200px;
+}
+
+em, strong {
+  font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color-terciary);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-link-color);
+}
+
+.wrapper {
+  max-width: 1020px;
+  margin: 0 auto;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 1020px) {
+  .wrapper {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-link-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color-primary);
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-color-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: var(--text-color-terciary);
+  color: var(--bg-primary);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.center-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.nuxt-content {
+  margin-top: 1rem;
+
+  ul {
+    margin-bottom: 1.25rem;
+    padding-left: 2em;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+  }
+
+  li + li {
+    margin: 0.5em 0;
+  }
+
+  .nuxt-content-highlight {
+    margin-bottom: 1.25rem;
+    pre {
+      border-radius: 10px;
+      background-color: var(--bg-primary);
+      text-shadow: none;
+      color: var(--text-color-primary);
+
+      .operator {
+        background-color: var(--bg-primary);
+      }
+    }
+  }
+}
+
+.icon.icon-link {
+
+  position: absolute;
+  opacity: 0;
+  background-repeat: no-repeat;
+  width: 2.5rem;
+  height: 1rem;
+  margin-left: -1.5rem;
+  background-image: url('/icons/link.svg');
+  margin-top: 6px;
+
+  h3 & {
+    margin-top: 2px;
+  }
+
+  .dark & {
+    background-image: url('/icons/link-white.svg');
+  }
+
+  h2:hover &, h3:hover &, h4:hover &,  h5:hover & {
+    opacity: 1;
+  }
+}
+
+.visually-hidden {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+  clip: rect(1px, 1px, 1px, 1px); /*maybe deprecated but we need to support legacy browsers */
+  clip-path: inset(50%); /*modern browsers, clip-path works inwards from each corner*/
+  white-space: nowrap; /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+}
