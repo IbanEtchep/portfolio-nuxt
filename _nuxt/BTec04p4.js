@@ -1,0 +1,1 @@
+const a={welcome_1:{t:0,b:{t:2,i:[{t:3}],s:'Ongi etorri, <span class="colored">Iban</span> deitzen naiz.'}},welcome_2:{t:0,b:{t:2,i:[{t:3}],s:'<span class="colored">Garatzaile</span> sutsua, ideiak egi bilakaraztea gustatzen zait.'}}};export{a as default};

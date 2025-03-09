@@ -1,0 +1,1 @@
+const e={welcome_1:{t:0,b:{t:2,i:[{t:3}],s:'Welcome, I’m <span class="colored">Iban</span>.'}},welcome_2:{t:0,b:{t:2,i:[{t:3}],s:'Passionate <span class="colored">developer</span>, I love turning ideas into concrete solutions.'}},projects:{title:{t:0,b:{t:2,i:[{t:3}],s:"Projects"}}}};export{e as default};

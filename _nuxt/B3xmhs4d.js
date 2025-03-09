@@ -1,0 +1,1 @@
+const s={welcome_1:{t:0,b:{t:2,i:[{t:3}],s:'Bienvenue, je suis <span class="colored">Iban</span>.'}},welcome_2:{t:0,b:{t:2,i:[{t:3}],s:`<span class="colored">Développeur</span> passionné, j'aime transformer des idées en solutions concrètes.`}},projects:{title:{t:0,b:{t:2,i:[{t:3}],s:"Mes réalisations"}}}};export{s as default};
