@@ -2,26 +2,26 @@
 const route = useRoute()
 const i18n = useI18n()
 const localePath = useLocalePath()
-const projectCollectionName = 'projects_' + i18n.locale.value;
+const skillCollectionName = 'skills_' + i18n.locale.value;
 
-const { data: projects } = await useAsyncData(route.path, async () => {
-  const collection = queryCollection(projectCollectionName)
+const { data: skills } = await useAsyncData(route.path, async () => {
+  const collection = queryCollection(skillCollectionName)
   return collection.all()
 })
 </script>
 
 <template>
   <div>
-    <h1 class="text-center">{{ $t('projects.title') }}</h1>
+    <h1 class="text-center">{{ $t('skills.title') }}</h1>
 
-    <div class="projects">
-      <div class="project" v-for="project in projects" :key="project.slug">
-        <nuxt-link :to="localePath('/projects/' + project.slug)">
-          <div class="project-wrapper">
-            <NuxtImg :src="`/images/${project.slug}/thumbnail.png`" alt="thumb du projet" />
+    <div class="skills">
+      <div class="skill" v-for="skill in skills" :key="skill.slug">
+        <nuxt-link :to="localePath('/skills/' + skill.slug)">
+          <div class="skill-wrapper">
+            <NuxtImg :src="`/images/${skill.slug}/thumbnail.png`" alt="thumb du projet" />
             <div class="details">
-              <h3>{{ project.name }}</h3>
-              <p>{{ project.description }}</p>
+              <h3>{{ skill.name }}</h3>
+              <p>{{ skill.description }}</p>
             </div>
           </div>
         </nuxt-link>
@@ -32,29 +32,29 @@ const { data: projects } = await useAsyncData(route.path, async () => {
 
 <style lang="scss">
 
-.projects {
+.skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
-  .project {
+  .skill {
     width: 30%;
   }
 }
 
 @media (max-width: 1024px) {
-  .projects .project {
+  .skills .skill {
     width: 49%;
   }
 }
 
 @media (max-width: 640px) {
-  .projects .project {
+  .skills .skill {
     width: 100%;
   }
 }
 
-.project-wrapper {
+.skill-wrapper {
   background-color: var(--bg-primary);
   border-radius: 10px;
   width: 100%;
@@ -77,12 +77,12 @@ const { data: projects } = await useAsyncData(route.path, async () => {
   }
 }
 
-.project-wrapper:hover {
+.skill-wrapper:hover {
   transform: translateY(-0.25rem);
   box-shadow: 0px 2px 4px rgb(46 41 51 / 8%), 0px 5px 10px rgb(71 63 79 / 16%);;
 }
 
-.project-filter {
+.skill-filter {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

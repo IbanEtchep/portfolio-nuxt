@@ -1,7 +1,6 @@
 <script setup>
 const route = useRoute()
 const i18n = useI18n()
-const localePath = useLocalePath()
 
 const projectCollectionName = 'projects_' + i18n.locale.value
 

@@ -10,6 +10,7 @@ const commonProjectSchema = z.object({
 const commonSkillSchema = z.object({
     name: z.string().nonempty(),
     icon: z.string().optional(),
+    technical: z.boolean().default(true),
 })
 
 export const collections = {
