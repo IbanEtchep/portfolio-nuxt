@@ -12,14 +12,14 @@
       </div>
 
       <div class="contact-element">
-        <div class="contact-icon"><Icon name="akar-icons:linkedin-fill"/></div>
+        <div class="contact-icon"><Icon name="uil:linkedin"/></div>
         <div class="contact-text">
           <a href="https://www.linkedin.com/in/iban-etchepareborde-277118224/">LinkedIn</a>
         </div>
       </div>
 
       <div class="contact-element">
-        <div class="contact-icon"><Icon name="akar-icons:discord-fill"/></div>
+        <div class="contact-icon"><Icon name="ic:baseline-discord"/></div>
         <div class="contact-text">
           Iban#0001
         </div>
