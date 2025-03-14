@@ -13,9 +13,11 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
   ],
-  clientBundle: {
-    scan: true,
-    sizeLimitKb: 256,
+  icon: {
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 256,
+    },
   },
   i18n: {
     lazy: true,
