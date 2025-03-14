@@ -1,5 +1,6 @@
 ---
 name: Communication
+slug: communication
 technical: false
 ---
 

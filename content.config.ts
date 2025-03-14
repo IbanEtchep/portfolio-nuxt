@@ -1,14 +1,15 @@
 import { defineCollection, z } from '@nuxt/content'
 
 const commonProjectSchema = z.object({
-    slug: z.string(),
     name: z.string().nonempty(),
+    slug: z.string().nonempty(),
     description: z.string().nonempty(),
     skills: z.array(z.string().nonempty()).optional(),
 })
 
 const commonSkillSchema = z.object({
     name: z.string().nonempty(),
+    slug: z.string().nonempty(),
     icon: z.string().optional(),
     technical: z.boolean().default(true),
 })

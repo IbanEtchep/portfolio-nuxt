@@ -1,5 +1,6 @@
 ---
 name: Symfony
+slug: symfony
 technical: true
 ---
 

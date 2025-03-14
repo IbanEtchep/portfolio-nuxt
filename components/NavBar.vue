@@ -3,7 +3,7 @@ const localePath = useLocalePath()
 
 const navItems = [
   { to: '/projects', label: 'Projets' },
-  { to: '/', label: 'Compétences' },
+  { to: '/skills', label: 'Compétences' },
   { to: '/contact', label: 'Contact' }
 ]
 

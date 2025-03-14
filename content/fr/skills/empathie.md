@@ -1,5 +1,6 @@
 ---
 name: Empathie
+slug: empathie
 technical: false
 ---
 

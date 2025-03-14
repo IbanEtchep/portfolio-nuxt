@@ -1,5 +1,6 @@
 ---
 name: Développement WEB
+slug: web
 technical: true
 ---
 

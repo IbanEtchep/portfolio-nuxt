@@ -1,5 +1,6 @@
 ---
 name: Empathie
+slug: autonomie
 technical: false
 ---
 

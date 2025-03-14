@@ -1,5 +1,6 @@
 ---
 name: Organisation
+slug: organisation
 technical: false
 ---
 

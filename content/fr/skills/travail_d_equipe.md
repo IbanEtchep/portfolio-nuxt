@@ -1,5 +1,6 @@
 ---
 name: Travail d'équipe
+slug: travail_d_equipe
 technical: false
 ---
 

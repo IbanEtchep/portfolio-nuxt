@@ -1,5 +1,6 @@
 ---
 name: Git
+slug: git
 technical: true
 ---
 

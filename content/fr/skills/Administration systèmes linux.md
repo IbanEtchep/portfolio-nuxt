@@ -1,5 +1,6 @@
 ---
 name: Administration systèmes Linux
+slug: administration-systemes-linux
 technical: true
 ---
 

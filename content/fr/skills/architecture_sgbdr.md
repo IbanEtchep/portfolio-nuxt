@@ -1,5 +1,6 @@
 ---
 name: Architecture SGBDR
+slug: architecture-sgbdr
 technical: true
 ---
 
