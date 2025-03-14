@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
   ],
   icon: {
+    localApiEndpoint: '/icon-api/',
     clientBundle: {
       scan: true,
       sizeLimitKb: 256,
