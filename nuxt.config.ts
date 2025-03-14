@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     '@nuxt/icon',
   ],
   icons: {
-    dynamic: true,
     serverBundle: {
       collections: [
         'uil',
@@ -24,10 +23,6 @@ export default defineNuxtConfig({
         'fa-brands'
       ]
     },
-  },
-  clientBundle: {
-    scan: true,
-    sizeLimitKb: 256,
   },
   i18n: {
     lazy: true,
