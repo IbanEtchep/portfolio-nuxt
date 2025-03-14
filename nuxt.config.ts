@@ -25,6 +25,10 @@ export default defineNuxtConfig({
       ]
     },
   },
+  clientBundle: {
+    scan: true,
+    sizeLimitKb: 256,
+  },
   i18n: {
     lazy: true,
     langDir: 'locales',
