@@ -13,16 +13,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
   ],
-  icons: {
-    serverBundle: {
-      collections: [
-        'uil',
-        'ic',
-        'material-symbols',
-        'material-symbols-light',
-        'fa-brands'
-      ]
-    },
+  clientBundle: {
+    scan: true,
+    sizeLimitKb: 256,
   },
   i18n: {
     lazy: true,
