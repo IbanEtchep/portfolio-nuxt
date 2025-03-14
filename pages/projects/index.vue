@@ -35,22 +35,22 @@ const { data: projects } = await useAsyncData(route.path, async () => {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 1rem;
 
   .project {
-    width: 30%;
+    flex: 0 0 calc((100% - 2rem) / 3);
   }
 }
 
 @media (max-width: 1024px) {
   .projects .project {
-    width: 49%;
+    flex: 0 0 calc((100% - 1rem) / 2);
   }
 }
 
 @media (max-width: 640px) {
   .projects .project {
-    width: 100%;
+    flex: 0 0 100%;
   }
 }
 
@@ -65,7 +65,8 @@ const { data: projects } = await useAsyncData(route.path, async () => {
   img {
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
   }
 
   h3 {
@@ -74,6 +75,7 @@ const { data: projects } = await useAsyncData(route.path, async () => {
 
   .details {
     padding: 2rem;
+    height: 180px;
   }
 }
 
