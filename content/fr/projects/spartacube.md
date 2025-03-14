@@ -8,6 +8,8 @@ skills:
 slug: spartacube
 ---
 
+# Spartacube
+
 ## Présentation générale
 
 Spartacube est un serveur Minecraft public. Minecraft est un jeu vidéo de type bac à sable développé et publié par Mojang Studios. Il a été créé en 2009 et est aujourd’hui possédé par Microsoft. Ce jeu a la particularité de ne pas avoir d’instructions spécifiques, le joueur apparaît sur un monde infini, livré à lui-même, et doit y survivre, et a la possibilité d’y faire tout ce qu’il souhaite. La grande force de ce jeu est sa communauté, de par le contenu qu'elle crée, en matière de mods, cartes, serveurs multijoueur et modes de jeu. Un serveur minecraft est une plateforme qui permet à plusieurs joueurs de jouer ensemble.
