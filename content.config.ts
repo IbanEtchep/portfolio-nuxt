@@ -1,5 +1,10 @@
 import { defineCollection, z } from '@nuxt/content'
 
+const commonDocsSchema = z.object({
+    name: z.string().nonempty(),
+    slug: z.string().nonempty(),
+})
+
 const commonProjectSchema = z.object({
     name: z.string().nonempty(),
     slug: z.string().nonempty(),
@@ -34,5 +39,15 @@ export const collections = {
         type: 'page',
         source: 'fr/skills/*.md',
         schema: commonSkillSchema,
+    }),
+    docs_en: defineCollection({
+        type: 'page',
+        source: 'en/docs/*.md',
+        schema: commonDocsSchema,
+    }),
+    docs_fr: defineCollection({
+        type: 'page',
+        source: 'fr/docs/*.md',
+        schema: commonDocsSchema,
     }),
 }

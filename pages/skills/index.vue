@@ -4,56 +4,76 @@ const i18n = useI18n()
 const localePath = useLocalePath()
 const skillCollectionName = 'skills_' + i18n.locale.value;
 
-const { data: skills } = await useAsyncData(route.path, async () => {
-  const collection = queryCollection(skillCollectionName)
-  return collection.all()
+const { data: skillsData } = await useAsyncData(route.path, async () => {
+  return {
+    technicalSkills: await queryCollection(skillCollectionName).where('technical', '==', true).all(),
+    softSkills: await queryCollection(skillCollectionName).where('technical', '==', false).all()
+  }
 })
+
+const technicalSkills = skillsData.value.technicalSkills
+const softSkills = skillsData.value.softSkills
+
 </script>
 
 <template>
   <div>
-    <h1 class="text-center">{{ $t('skills.title') }}</h1>
+    <div id="technical-skills" class="skills-wrapper">
+      <h2 class="text-center">{{ $t('skills.technical.title') }}</h2>
 
-    <div class="skills">
-      <div class="skill" v-for="skill in skills" :key="skill.slug">
-        <nuxt-link :to="localePath('/skills/' + skill.slug)">
-          <div class="skill-wrapper">
-            <NuxtImg :src="`/images/${skill.slug}/thumbnail.png`" alt="thumb du projet" />
-            <div class="details">
-              <h3>{{ skill.name }}</h3>
-              <p>{{ skill.description }}</p>
+      <div class="skills">
+        <div class="skill" v-for="skill in technicalSkills" :key="skill.slug">
+          <nuxt-link :to="localePath('/skills/' + skill.slug)">
+            <div class="skill-wrapper">
+              <!--            <NuxtImg :src="`/images/${skill.slug}/thumbnail.png`" alt="thumb du projet" />-->
+              <div class="details">
+                <h3>{{ skill.name }}</h3>
+              </div>
             </div>
-          </div>
-        </nuxt-link>
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
+
+    <div id="soft-skills" class="skills-wrapper">
+      <h2 class="text-center">{{ $t('skills.soft.title') }}</h2>
+
+      <div class="skills">
+        <div class="skill" v-for="skill in softSkills" :key="skill.slug">
+          <nuxt-link :to="localePath('/skills/' + skill.slug)">
+            <div class="skill-wrapper">
+              <!--            <NuxtImg :src="`/images/${skill.slug}/thumbnail.png`" alt="thumb du projet" />-->
+              <div class="details">
+                <h3>{{ skill.name }}</h3>
+              </div>
+            </div>
+          </nuxt-link>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss">
+.skills-wrapper {
+  padding: 3rem 0;
+}
 
 .skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 1rem;
 
   .skill {
-    width: 30%;
+    flex-basis: calc(50% - 0.5rem);
   }
 }
 
 @media (max-width: 1024px) {
   .skills .skill {
-    width: 49%;
+    flex-basis: 100%;
   }
 }
-
-@media (max-width: 640px) {
-  .skills .skill {
-    width: 100%;
-  }
-}
-
 .skill-wrapper {
   background-color: var(--bg-primary);
   border-radius: 10px;
@@ -70,6 +90,7 @@ const { data: skills } = await useAsyncData(route.path, async () => {
 
   h3 {
     text-align: center;
+    margin-bottom: 0;
   }
 
   .details {

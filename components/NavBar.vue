@@ -2,6 +2,7 @@
 const localePath = useLocalePath()
 
 const navItems = [
+  { to: '/about', label: 'A propos' },
   { to: '/projects', label: 'Projets' },
   { to: '/skills', label: 'Compétences' },
   { to: '/contact', label: 'Contact' }

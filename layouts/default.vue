@@ -4,16 +4,15 @@
 
     <main>
       <div class="wrapper">
-        <Transition name="fade" mode="out-in">
+<!--        <Transition name="fade" mode="out-in">-->
           <slot/>
-        </Transition>
+<!--        </Transition>-->
       </div>
     </main>
 
     <Footer/>
 
     <BackToTop />
-
   </div>
 </template>
 

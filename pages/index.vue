@@ -2,8 +2,8 @@
   <div>
     <header id="about-header" class="wrapper">
       <h1 class="text-center">
-        <span v-html="$t('welcome_1')"></span>
-        <span v-html="$t('welcome_2')"></span>
+        <div>{{ $t('welcome_1') }}</div>
+        <div>{{ $t('welcome_2') }}</div>
       </h1>
     </header>
 

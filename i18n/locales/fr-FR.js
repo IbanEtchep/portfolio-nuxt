@@ -1,8 +1,17 @@
 export default {
-    welcome_1: 'Bienvenue, je suis <span class="colored">Iban</span>.',
-    welcome_2: '<span class="colored">Développeur</span> passionné, j\'aime transformer des idées en solutions concrètes.',
+    welcome_1: 'Bienvenue, je suis Iban,',
+    welcome_2: 'Développeur Full-Stack.',
 
     projects: {
         title: 'Mes réalisations',
+    },
+
+    skills: {
+        technical: {
+            title:  'Compétences techniques',
+        },
+        soft: {
+            title: 'Compétences humaines',
+        }
     }
 }
