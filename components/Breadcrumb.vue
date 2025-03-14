@@ -18,7 +18,7 @@ const localePath = useLocalePath();
     <ol>
       <li>
         <NuxtLink :to="localePath('/')" aria-label="Accueil">
-          <Icon name="line-md:home-simple" />
+          <Icon name="ic:round-home" />
         </NuxtLink>
       </li>
       <li v-for="(item, index) in props.items" :key="index">

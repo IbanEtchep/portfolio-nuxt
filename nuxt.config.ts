@@ -14,7 +14,16 @@ export default defineNuxtConfig({
     '@nuxt/icon',
   ],
   icons: {
-    dynamic: true
+    dynamic: true,
+    serverBundle: {
+      collections: [
+        'uil',
+        'ic',
+        'material-symbols',
+        'material-symbols-light',
+        'fa-brands'
+      ]
+    },
   },
   i18n: {
     lazy: true,
