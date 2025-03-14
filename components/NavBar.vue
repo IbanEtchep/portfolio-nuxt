@@ -60,7 +60,7 @@ const isOpen = ref(false)
 
 header {
   background-color: var(--bg-primary);
-  padding: 3rem 0;
+  padding: 2rem 0;
   box-shadow: 1px 1px 5px 0 rgb(1 1 1 / 5%);
 
   .wrapper {
@@ -71,14 +71,14 @@ header {
   nav {
     margin-left: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    gap: 1.5rem;
     width: 60%;
   }
 
   a {
     font-size: 1.25rem;
     font-weight: 600;
-    padding: 1.25rem;
     color: var(--text-color-primary);
   }
 
@@ -87,10 +87,6 @@ header {
 .burger {
   display: none;
   margin-left: 1rem;
-}
-
-.desktop-nav {
-  display: block;
 }
 
 .mobile-nav {
@@ -104,15 +100,6 @@ header {
     font-size: 1.5rem;
     font-weight: bolder;
     color: var(--text-color-primary);
-  }
-
-  span {
-    display: inline-block;
-  }
-
-  span:first-letter {
-    display: block;
-    color: var(--text-color-terciary);
   }
 }
 

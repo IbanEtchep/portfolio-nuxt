@@ -7,11 +7,19 @@ export default {
     },
 
     skills: {
+        title: 'Mes compétences',
         technical: {
             title:  'Compétences techniques',
         },
         soft: {
             title: 'Compétences humaines',
         }
+    },
+
+    breadcrumb: {
+        about: 'à propos',
+        projects: 'réalisations',
+        skills: 'compétences',
+        contact: 'contact',
     }
 }

@@ -1,5 +1,9 @@
 <template>
   <div class="wrapper">
+    <Breadcrumb :items="[
+      { text: $t('breadcrumb.contact') }
+    ]" />
+
     <Contact/>
   </div>
 

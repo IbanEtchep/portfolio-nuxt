@@ -10,6 +10,10 @@ const { data: aboutPage } = await useAsyncData(route.path, async () => {
 
 <template>
   <div>
+    <Breadcrumb :items="[
+      { text: $t('breadcrumb.about')}
+    ]" />
+
     <ContentRenderer v-if="aboutPage" :value="aboutPage" />
   </div>
 </template>

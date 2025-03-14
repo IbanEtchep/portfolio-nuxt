@@ -2,13 +2,16 @@
 name: Organisation
 slug: organisation
 technical: false
+icon: material-symbols-light:hourglass-arrow-down-outline
 ---
 
-### Ma définition
+# Organisation
+
+## Ma définition
 
 L’organisation est une compétence essentielle pour un développeur que j’ai longtemps sous-estimée. Une bonne organisation permet plusieurs choses: augmenter les chances qu’un projet aille au bout, estimer la difficulté et le délai de création d’un projet, prioriser les éléments importants, avoir une vision d’ensemble et éviter les surprises, et gagner en productivité. 
 
-### Mes éléments de preuve
+## Mes éléments de preuve
 
 Au départ, j’avais tendance à me lancer tête baissée dans des projets, sans avoir pris le temps de mettre au clair ce que ce projet impliquait. D’un côté, ça avait l’avantage de ne pas me faire peur de commencer car le projet en question pourrait me prendre énormément de temps. N’ayant pas conscience de cela, je faisais seulement les choses sur mon temps libre sans me soucier du temps passé et je finissais parfois par arriver au bout. Mais parfois ce n’était pas le cas, ou je faisais des erreurs auraient pu être évitées si j’avais mieux réfléchi au projet dès le début.
 
@@ -18,10 +21,10 @@ Au travail, selon la complexité du projet, j’utilise des outils comme Jira ou
 
 Pour les projets plus conséquents, il est préférable d’utiliser une méthodologie plus poussée. Dans l’entreprise où je fais mon alternance, et dans la plupart des entreprises du secteur, on utilise la méthodologie Agile, grâce notamment à l’outil Jira et les différentes cérémonies qui composent la méthodologie. Cette méthodologie repose l’itération de cycles courts, appelés sprints, permettant ainsi des livraisons fréquentes de fonctionnalités, une meilleure communication, une navigation plus fluide concernant la direction à prendre, et favorise l’autocritique et l’évolution.
 
-### Mon autocritique
+## Mon autocritique
 
 Les différents projets sur lesquels j’ai travaillé m’ont permis de prendre conscience de l’importance de cette compétence, et ne plus la sous-estimer comme il m’arrivait de le faire par le passé. Aujourd’hui, avant le début de chaque projet, je prends un moment pour organiser le travail à effectuer afin que le projet puisse aller au bout et mettre en lumière dès le départ tout obstacle à sa réalisation.
 
-### Mon évolution dans cette compétence
+## Mon évolution dans cette compétence
 
 Je souhaite évoluer davantage dans cette compétence. Pour cela, je vais avoir besoin d’approfondir mes connaissances sur les différentes méthodologies de travail qui existent, et les outils qui permettent de modéliser chaque besoin, notamment l’UML. Bien que j’ai une bonne maîtrise pour les diagrammes de cas d’utilisation et de classe, il m’en reste un bon nombre où je dois m’exercer, notamment les diagrammes de flux, essentiels pour mieux visualiser les flux d’un projet et permettre de mieux s’organiser grâce à cette visualisation.

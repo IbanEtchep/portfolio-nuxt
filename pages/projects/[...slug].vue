@@ -1,4 +1,5 @@
 <script setup>
+const localePath = useLocalePath()
 const route = useRoute()
 const i18n = useI18n()
 
@@ -13,7 +14,12 @@ const {data: project} = await useAsyncData(route.path, async () => {
 
 <template>
   <div>
-    <h1>{{ project.name }}</h1>
+    <Breadcrumb :items="[
+      { text: $t('breadcrumb.projects'), to: localePath('projects')
+      },
+      { text: project.name }
+    ]" />
+
     <ContentRenderer :value="project" />
   </div>
 </template>

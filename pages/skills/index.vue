@@ -18,14 +18,22 @@ const softSkills = skillsData.value.softSkills
 
 <template>
   <div>
+    <Breadcrumb :items="[
+      { text: $t('breadcrumb.skills') }
+    ]" />
+
+    <h1 class="text-center">{{ $t('skills.title') }}</h1>
+
     <div id="technical-skills" class="skills-wrapper">
       <h2 class="text-center">{{ $t('skills.technical.title') }}</h2>
 
       <div class="skills">
-        <div class="skill" v-for="skill in technicalSkills" :key="skill.slug">
+        <div class="skill card" v-for="skill in technicalSkills" :key="skill.slug">
           <nuxt-link :to="localePath('/skills/' + skill.slug)">
             <div class="skill-wrapper">
-              <!--            <NuxtImg :src="`/images/${skill.slug}/thumbnail.png`" alt="thumb du projet" />-->
+              <div class="skill-icon" v-if="skill.icon">
+                <Icon :name="skill.icon" />
+              </div>
               <div class="details">
                 <h3>{{ skill.name }}</h3>
               </div>
@@ -39,10 +47,12 @@ const softSkills = skillsData.value.softSkills
       <h2 class="text-center">{{ $t('skills.soft.title') }}</h2>
 
       <div class="skills">
-        <div class="skill" v-for="skill in softSkills" :key="skill.slug">
+        <div class="skill card" v-for="skill in softSkills" :key="skill.slug">
           <nuxt-link :to="localePath('/skills/' + skill.slug)">
             <div class="skill-wrapper">
-              <!--            <NuxtImg :src="`/images/${skill.slug}/thumbnail.png`" alt="thumb du projet" />-->
+              <div class="skill-icon" v-if="skill.icon">
+                <Icon :name="skill.icon" />
+              </div>
               <div class="details">
                 <h3>{{ skill.name }}</h3>
               </div>
@@ -62,7 +72,9 @@ const softSkills = skillsData.value.softSkills
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
+  margin: 3rem 0;
 
   .skill {
     flex-basis: calc(50% - 0.5rem);
@@ -75,12 +87,10 @@ const softSkills = skillsData.value.softSkills
   }
 }
 .skill-wrapper {
-  background-color: var(--bg-primary);
-  border-radius: 10px;
   width: 100%;
-  margin: 1rem 0;
-  box-shadow: 1px 1px 5px 0 rgb(1 1 1 / 5%);
-  transition: transform 250ms ease, box-shadow 250ms ease, color 250ms ease;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 
   img {
     border-radius: 10px 10px 0 0;
@@ -92,15 +102,17 @@ const softSkills = skillsData.value.softSkills
     text-align: center;
     margin-bottom: 0;
   }
-
-  .details {
-    padding: 2rem;
-  }
 }
 
-.skill-wrapper:hover {
-  transform: translateY(-0.25rem);
-  box-shadow: 0px 2px 4px rgb(46 41 51 / 8%), 0px 5px 10px rgb(71 63 79 / 16%);;
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  color: var(--text-color-primary);
+  font-size: 3rem;
 }
 
 .skill-filter {
@@ -139,5 +151,4 @@ const softSkills = skillsData.value.softSkills
   display: flex;
   gap: 0.5rem;
 }
-
 </style>

@@ -2,9 +2,12 @@
 name: Administration systèmes Linux
 slug: administration-systemes-linux
 technical: true
+icon: material-symbols-light:data-table
 ---
 
-# Ma définition
+# Administration systèmes Linux
+
+## Ma définition
 
 L’administration de systèmes linux consiste à gérer, maintenir, et optimiser des systèmes utilisant le système d’exploitation Linux. Linux est un système d’exploitation open source créé à l’origine par Linus Torvalds en 1991. Il est connu pour sa stabilité, sa sécurité et sa flexibilité, ce qui en fait un système d’exploitation très adapté pour héberger des services.  Le rôle principal d’un administrateur de système linux est de s’assurer que les utilisateurs puissent accéder aux services auxquels ils doivent pouvoir accéder, tout en bloquant les attaques malveillantes, et garantissant une haute disponibilité des services.
 

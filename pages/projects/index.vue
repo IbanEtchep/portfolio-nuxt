@@ -12,10 +12,14 @@ const { data: projects } = await useAsyncData(route.path, async () => {
 
 <template>
   <div>
+    <Breadcrumb :items="[
+      { text: $t('breadcrumb.projects') }
+    ]" />
+
     <h1 class="text-center">{{ $t('projects.title') }}</h1>
 
     <div class="projects">
-      <div class="project" v-for="project in projects" :key="project.slug">
+      <div class="project card" v-for="project in projects" :key="project.slug">
         <nuxt-link :to="localePath('/projects/' + project.slug)">
           <div class="project-wrapper">
             <NuxtImg :src="`/images/${project.slug}/thumbnail.png`" alt="thumb du projet" />
@@ -35,10 +39,13 @@ const { data: projects } = await useAsyncData(route.path, async () => {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
+  margin: 2rem 0;
 
   .project {
     flex: 0 0 calc((100% - 2rem) / 3);
+    padding: 0;
   }
 }
 
@@ -58,8 +65,6 @@ const { data: projects } = await useAsyncData(route.path, async () => {
   background-color: var(--bg-primary);
   border-radius: 10px;
   width: 100%;
-  margin: 1rem 0;
-  box-shadow: 1px 1px 5px 0 rgb(1 1 1 / 5%);
   transition: transform 250ms ease, box-shadow 250ms ease, color 250ms ease;
 
   img {
@@ -77,11 +82,6 @@ const { data: projects } = await useAsyncData(route.path, async () => {
     padding: 2rem;
     height: 180px;
   }
-}
-
-.project-wrapper:hover {
-  transform: translateY(-0.25rem);
-  box-shadow: 0px 2px 4px rgb(46 41 51 / 8%), 0px 5px 10px rgb(71 63 79 / 16%);;
 }
 
 .project-filter {

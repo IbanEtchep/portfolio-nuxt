@@ -2,9 +2,12 @@
 name: Développement WEB
 slug: web
 technical: true
+icon: ic:baseline-web
 ---
 
-### Ma définition
+# Développement WEB
+
+## Ma définition
 
 La compétence de développement WEB consiste à être capable de concevoir et maintenir un site WEB professionnel. Pour cela, le développeur doit avoir une connaissance approfondie du fonctionnement du WEB, des différents langages nécessaires au développement d’un site web, et des bonnes pratiques pour que le site créé puisse être référencé et trouvé par les utilisateurs cible.
 
@@ -22,7 +25,7 @@ Du côté du backend, le choix du langage de programmation est beaucoup plus vas
 
 Étant donné la grande variété de langages et frameworks disponibles, un développeur doit savoir choisir les technologies sur lesquelles il va se concentrer, selon la demande du marché, ses préférences et son expérience.
 
-### Mes éléments de preuve
+## Mes éléments de preuve
 
 Tout au long de ma formation, le développement web a été le domaine qui m’a été enseigné en priorité. En BTS SIO, les premiers enseignements qu’on a reçus ont été l’html/css, le langage php pour le backend, et le javascript. En parallèle, on nous a appris toutes les compétences liées, telles que le SQL, la cybersécurité, ou bien comment héberger un site web. Les cas pratiques étaient également presque tous la conception d’un site web en lien avec les enseignements récents.
 
@@ -36,10 +39,10 @@ En 3ème année, mon stage a duré 3 mois et ça a été ma première expérienc
 
 Enfin, durant ces deux dernières années en alternance, j’ai travaillé sur un projet complexe dont le développement s’est étalé sur deux ans. Cette fois-ci, j’étais présent depuis quasiment le début du projet, et j’ai pu avoir plus de libertés pour participer de façon plus approfondie à sa conception technique.
 
-### Mon autocritique
+## Mon autocritique
 
 Au fil de mes expériences professionnelles, j'ai eu la chance de m’exercer sur le développement web en partant des bases en en montant crescendo en complexité. Cela m’a permis de forger une véritable expertise sur le sujet et je me sens aujourd’hui capable d'appréhender la majorité des projets web.
 
-### Mon évolution dans cette compétence
+## Mon évolution dans cette compétence
 
 Le développement web est un domaine qui évolue très vite ces dernières années. Je continuerai donc à prendre en compétence sur le sujet et à maintenir une veille rigoureuse pour me maintenir à jour sur les pratiques modernes.
