@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
   ],
+  icons: {
+    dynamic: true
+  },
   i18n: {
     lazy: true,
     langDir: 'locales',
@@ -25,6 +28,6 @@ export default defineNuxtConfig({
     ],
     compilation: {
       strictMessage: false,
-    }
+    },
   }
 })
