@@ -19,9 +19,9 @@ export default defineNuxtConfig({
     strategy: 'prefix_except_default',
     defaultLocale: 'fr',
     locales: [
-      { code: 'en', file: 'en-US.js', name: 'English' },
+      // { code: 'en', file: 'en-US.js', name: 'English' },
       { code: 'fr', file: 'fr-FR.js', name: 'Français' },
-      { code: 'eu', file: 'eu.js' , name: 'Euskara' },
+      // { code: 'eu', file: 'eu.js' , name: 'Euskara' },
     ],
     compilation: {
       strictMessage: false,
