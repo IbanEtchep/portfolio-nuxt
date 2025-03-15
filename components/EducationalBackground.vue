@@ -2,7 +2,7 @@
 const items = [
   {
     title: 'BAC+5 - Expert en ingénierie du logiciel',
-    subtitle: "Louis de foix - Bayonne",
+    subtitle: "ESIEA - Dax",
     period: 'Septembre 2020 - Juin 2022 (2 ans)',
   },
   {
