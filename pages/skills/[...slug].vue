@@ -20,6 +20,8 @@ const {data: skill} = await useAsyncData(route.path, async () => {
       { text: skill.name }
     ]" />
 
-    <ContentRenderer :value="skill" />
+    <div class="markdown-content">
+      <ContentRenderer :value="skill" />
+    </div>
   </div>
 </template>

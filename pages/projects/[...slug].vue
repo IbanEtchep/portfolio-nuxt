@@ -20,6 +20,8 @@ const {data: project} = await useAsyncData(route.path, async () => {
       { text: project.name }
     ]" />
 
-    <ContentRenderer :value="project" />
+    <div class="markdown-content">
+      <ContentRenderer :value="project" />
+    </div>
   </div>
 </template>
