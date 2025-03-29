@@ -10,10 +10,6 @@
     <section id="experiences">
       <Experiences />
     </section>
-
-    <section id="education">
-      <EducationalBackground />
-    </section>
   </div>
 </template>
 

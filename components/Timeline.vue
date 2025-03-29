@@ -17,7 +17,7 @@ defineProps<{
       <div class="timeline-marker"></div>
       <div class="timeline-content card">
         <h3 class="text-primary">{{ item.title }}</h3>
-        <h4 class="text-normal">{{ item.subtitle }}</h4>
+        <h4 class="text-normal" v-html="item.subtitle"></h4>
         <div class="text-secondary">
           <span>{{ item.period }}</span>
           <span v-if="item.duration" class="timeline-duration">{{ item.duration }}</span>
