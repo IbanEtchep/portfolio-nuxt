@@ -18,7 +18,7 @@ const experiences = [
       <li><a href='/skills/symfony' target='_blank'>Symfony</a></li>
       <li><a href='/skills/git' target='_blank'>Git</a></li>
       <li><a href='/skills/architecture-sgbdr' target='_blank'>Architecture SGBDR</a></li>
-      <li><a href='/skills/web' target='_blank'>Développement WEB</a></li>
+      <li><a href='/skills/architecture-logicielle' target='_blank'>Architecture logicielle</a></li>
       <li><a href='/skills/communication' target='_blank'>Communication</a></li>
       <li><a href='/skills/communication' target='_blank'>Autonomie</a></li>
       <li><a href='/skills/communication' target='_blank'>Travail d'équipe</a></li>
@@ -76,7 +76,7 @@ const experiences = [
     <ul>
       <li><a href='/skills/symfony' target='_blank'>Symfony</a></li>
       <li><a href='/skills/git' target='_blank'>Git</a></li>
-      <li><a href='/skills/web' target='_blank'>Développement WEB</a></li>
+      <li><a href='/skills/architecture-logicielle' target='_blank'>Architecture logicielle</a></li>
       <li><a href='/skills/communication' target='_blank'>Communication</a></li>
       <li><a href='/skills/communication' target='_blank'>Autonomie</a></li>
       <li><a href='/skills/communication' target='_blank'>Travail d'équipe</a></li>
@@ -119,7 +119,7 @@ const experiences = [
     <ul>
       <li><a href='/skills/symfony' target='_blank'>Symfony</a></li>
       <li><a href='/skills/git' target='_blank'>Git</a></li>
-      <li><a href='/skills/web' target='_blank'>Développement WEB</a></li>
+      <li><a href='/skills/architecture-logicielle' target='_blank'>Architecture logicielle</a></li>
       <li><a href='/skills/communication' target='_blank'>Autonomie</a></li>
     </ul>
     `
