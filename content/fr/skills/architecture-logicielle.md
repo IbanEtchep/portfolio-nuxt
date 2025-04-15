@@ -49,23 +49,17 @@ Comme pour tous les services externes rattachés à la plateforme, comme l’env
 
 Pour en revenir au module Yousign, il est architecturé de la façon suivante:
 
-src/
-
-     Command/
-
-         YousignSendCommand - commande permettant d’envoyer un document en signature
-
-         YousignWebhookCommand - commande utile en local pour tester le webhook
-
-     Controller/
-
-         YousignController - contient le webhook appelé par yousign lors d’actions sur le service
-
-     EventSubscriber/
-
-          YousignEventSubscriber - écoute les événements déclenchés par le coeur et interagit avec le service Yousign     Service/
-
-          YousignService - contient la logique d’appel API au service Yousign
+`src/
+  Command/
+    YousignSendCommand - commande permettant d’envoyer un document en signature
+    YousignWebhookCommand - commande utile en local pour tester le webhook
+  Controller/
+    YousignController - contient le webhook appelé par yousign lors d’actions sur le service
+  EventSubscriber/
+    YousignEventSubscriber - écoute les événements déclenchés par le coeur et interagit avec le service Yousign
+  Service/
+    YousignService - contient la logique d’appel API au service Yousign
+`
 
 Voici la classe qui permet d’écouter les événements déclenchés par l’application et d’utiliser le service yousign.
 
