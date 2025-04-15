@@ -265,6 +265,17 @@ ul {
   line-height: var(--lh-normal);
 }
 
+pre.language-text {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+  code {
+    border-radius: 5px;
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-normal);
+  }
+}
+
 .card {
   background-color: var(--bg-primary);
   border-radius: 10px;
