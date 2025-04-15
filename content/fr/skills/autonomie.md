@@ -9,9 +9,9 @@ icon: ic:outline-account-circle
 
 ## Ma définition
 
-Une définition simple d’une personne autonome est pour moi, une personne qui fait les choses par soi même sans déléguer la responsabilité de ses actions à une personne tierce.
+Une définition simple d’une personne autonome est pour moi, une personne qui **fait les choses par soi même** sans déléguer la **responsabilité** de ses actions à une personne tierce.
 
-Dans le monde du travail, quelqu’un d'autonome va être en mesure, face à un problème de rechercher par soi-même des solutions et prendre l'initiative de les mettre en place, tout en restant bien sûr dans le cadre de la responsabilité qui lui est accordée.
+Dans le monde du travail, quelqu’un d'autonome va être en mesure, face à un problème, de **rechercher par lui-même des solutions** et **prendre l'initiative** de les mettre en place, tout en restant bien sûr dans le cadre de la responsabilité qui lui est accordée.
 
 ## Mes éléments de preuve
 
@@ -21,14 +21,14 @@ J’ai alors appris les bases de la programmation en regardant des vidéos ou en
 
 Aujourd’hui, je n’utilise quasiment plus la méthode des forums pour trouver des solutions à mes problèmes, je me sers en priorité des documentations, de l’analyse de code et de mes connaissances pour corriger ou améliorer un programme.
 
-Bien que je vous ai raconté comment mon autonomie s’est développée en tant que développeur, elle s’applique à n’importe quel domaine de ma vie.
+Depuis plus de 2 ans, je travaille chez Medialeads en tant que développeur et **je réalise au quotidien une multitude de tâches en autonomie**. Plus concrètement sur le projet Mon Portail Achats, où j’ai réalisé beaucoup de fonctionnalités de A à Z en autonomie, de la conception technique à la mise en place. Par exemple, j’ai mis en place toute la partie ajout/édition de produits la spécification des produits, la fiche produit, la mise au panier du produit, les différentes étapes de la commande de la proforma à la signature, ou bien le référencement des volumes prévisionnels par les adhérents de la plateforme. Cependant travailler en autonomie ne veut pas dire travailler sans consulter ses collègues. Je demande toujours leur avis avant de prendre des décisions critiques, comme la mise en place d’une structure après avoir créé les diagrammes UML, ou avant d’ajouter une librairie externe à l’application.
 
 ## Mon autocritique
 
-Je suis actuellement alternant développeur web dans une entreprise qui fait des sites web. Je m’efforce d’accomplir les tâches qui me sont confiées de façon autonome, bien qu’il m’arrive de demander conseil à mes collègues ou au responsable technique quand leur expérience ou expertise peuvent permettre de gagner du temps, ou pour confirmer mes choix.
+J’ai atteint un très bon niveau dans cette compétence. Je m’efforce d’accomplir les tâches qui me sont confiées de façon autonome, bien qu’il m’arrive de demander conseil à mes collègues ou au responsable technique quand leur expérience ou expertise peuvent permettre de gagner du temps, ou pour confirmer mes choix. Je ne pense pas qu’on puisse attendre plus d’autonomie de ma part, c’est un de mes points forts que les gens qui travaillent avec moi me font souvent remarquer.
 
-Du côté de mes serveurs Minecraft, étant responsable des choix techniques, je dois également faire preuve d’autonomie, et donc rechercher différentes solutions, les essayer, peser le pour et le contre de chacune, prendre une décision et l’appliquer.
+Avec l’expérience que j’ai aujourd’hui, un conseil que je peux donner à ceux qui ont du mal avec cette compétence est de toujours comprendre les bases de ce qu’ils font et ne pas systématiquement demander la solution à un IA ou à un collègue de travail. Pour un développeur, il faut savoir aller lire en profondeur le code qui pose problème, de couche en couche jusqu’à arriver à l’endroit de blocage. Développer ses compétences en recherches sur le web peut également être utile, et surtout faire ses recherches en anglais.
 
 ## Mon évolution dans cette compétence
 
-Cette compétence se développe naturellement, et s’améliore avec l’expérience. Je ne prévois donc pas de formation spécifique à l’approfondissement de cette connaissance.
+Je ne prévois pas de formation dans le domaine étant donné que je considère que je maîtrise déjà bien cette compétence et qu'il y a d'autres compétences où je souhaite progresser davantage.
