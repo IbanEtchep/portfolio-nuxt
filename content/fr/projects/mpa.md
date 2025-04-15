@@ -32,7 +32,7 @@ La plateforme comprends:
 - Les conditionnements
 - Les remises
 
-**Un front office,** permettant aux adhérents de: **** 
+**Un front office,** permettant aux adhérents de: 
 
 - Consulter le catalogue de produits génériques
 - Acheter des produits
