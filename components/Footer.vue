@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="wrapper">
-      © Iban Etchepareborde 2022
+      © Iban Etchepareborde 2025
       <div class="link-icon">
         <a href="https://github.com/IbanEtchep" target="_blank">
           <span class="visually-hidden">Visitez mon github !</span>
