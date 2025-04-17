@@ -28,7 +28,7 @@ J’ai ensuite pu commencer le développement de l’application web. J’ai d�
 
 Une fois que tout était installé, j’ai dû créer toutes les entités à partir du schéma de données que j’avais créé, en définissant les relations et les colonnes à créer en base de données à l’aide de l’ORM Doctrine.
 
-Puis, j'ai mis en place des fixtures. C’est un jeu de fausses données générées grâce à un module additionnel de symfony (https\://github.com/zenstruck/foundry) et qui permettent de donner vie à l’application et faciliter les tests. C’est très important pour le développement d’une application pour éviter d’avoir à chaque fois à repasser par tous les formulaires de création d’objets quand la base de données est réinitialisée.
+Puis, j'ai mis en place des fixtures. C’est un jeu de fausses données générées grâce à un module additionnel de symfony (<https://github.com/zenstruck/foundry>) et qui permettent de donner vie à l’application et faciliter les tests. C’est très important pour le développement d’une application pour éviter d’avoir à chaque fois à repasser par tous les formulaires de création d’objets quand la base de données est réinitialisée.
 
 J'ai ensuite entamé le développement de l'application, fonctionnalité par fonctionnalité, avec les routes, les formulaires, et les vues qui vont avec. (Connexion, inscription, ajout/édition de ruchers, de ruche, de suivis…)
 
