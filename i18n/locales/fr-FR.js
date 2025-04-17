@@ -4,6 +4,7 @@ export default {
 
     projects: {
         title: 'Mes réalisations',
+        relatedSkills: 'Compétences liées',
     },
 
     skills: {
@@ -13,7 +14,8 @@ export default {
         },
         soft: {
             title: 'Compétences humaines',
-        }
+        },
+        relatedProjects: 'Projets liés',
     },
 
     breadcrumb: {
