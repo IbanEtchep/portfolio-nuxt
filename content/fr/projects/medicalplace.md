@@ -3,6 +3,15 @@ name: MedicalPlace
 description: Plateforme CRM dans le domaine médical.
 slug: medicalplace
 title: MedicalPlace
+skills:
+  - travail_d_equipe
+  - organisation
+  - symfony
+  - autonomie
+  - architecture-logicielle
+  - architecture-sgbdr
+  - communication
+  - empathie
 ---
 
 # MedicalPlace

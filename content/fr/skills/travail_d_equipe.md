@@ -3,6 +3,10 @@ name: Travail d'équipe
 slug: travail_d_equipe
 technical: false
 icon: ic:baseline-supervisor-account
+projects:
+  - mpa
+  - medicalplace
+  - spartacube
 ---
 
 # Travail d'équipe

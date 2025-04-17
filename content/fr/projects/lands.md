@@ -2,6 +2,10 @@
 name: Lands
 description: Plugin Minecraft pour la gestion des territoires
 slug: lands
+skills:
+  - autonomie
+  - architecture-logicielle
+  - architecture-sgbdr
 ---
 
 # Lands

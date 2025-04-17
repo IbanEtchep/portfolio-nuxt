@@ -3,6 +3,10 @@ name: Symfony
 slug: symfony
 technical: true
 icon: fa-brands:symfony
+projects:
+  - mpa
+  - medicalplace
+  - apibook
 ---
 
 # Symfony

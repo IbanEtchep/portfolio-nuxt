@@ -3,6 +3,11 @@ name: Architecture SGBDR
 slug: architecture-sgbdr
 technical: true
 icon: material-symbols-light:dataset-linked
+projects:
+  - mpa
+  - medicalplace
+  - apibook
+  - lands
 ---
 
 # Architecture SGBDR

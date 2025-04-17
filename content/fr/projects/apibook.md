@@ -2,6 +2,13 @@
 name: Apibook
 description: Gestion des rûches pour les apiculteurs
 slug: apibook
+skills:
+  - organisation
+  - symfony
+  - autonomie
+  - architecture-logicielle
+  - architecture-sgbdr
+  - communication
 ---
 
 # Apibook

@@ -3,6 +3,12 @@ name: Autonomie
 slug: autonomie
 technical: false
 icon: ic:outline-account-circle
+projects:
+  - mpa
+  - medicalplace
+  - apibook
+  - lands
+  - spartacube
 ---
 
 # Autonomie

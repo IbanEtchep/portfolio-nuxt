@@ -3,6 +3,11 @@ name: Organisation
 slug: organisation
 technical: false
 icon: material-symbols-light:hourglass-arrow-down-outline
+projects:
+  - mpa
+  - medicalplace
+  - apibook
+  - spartacube
 ---
 
 # Organisation

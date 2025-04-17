@@ -3,6 +3,11 @@ name: Empathie
 slug: empathie
 technical: false
 icon: material-symbols:heart-plus
+projects:
+  - mpa
+  - medicalplace
+  - apibook
+  - spartacube
 ---
 
 # Empathie

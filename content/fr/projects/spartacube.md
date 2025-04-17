@@ -1,12 +1,15 @@
 ---
 name: Spartacube
 description: Serveur minecraft survie
-skills:
-  - Minecraft
-  - Serveur
-  - Survie
 slug: spartacube
 youtube_url: https://www.youtube.com/embed/ntjIo3n8C5o
+skills:
+  - travail_d_equipe
+  - organisation
+  - autonomie
+  - administration-systemes-linux
+  - communication
+  - empathie
 ---
 
 # Spartacube

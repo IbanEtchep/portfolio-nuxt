@@ -3,6 +3,11 @@ name: Communication
 slug: communication
 technical: false
 icon: material-symbols-light:communication
+projects:
+  - mpa
+  - medicalplace
+  - apibook
+  - spartacube
 ---
 
 # Communication

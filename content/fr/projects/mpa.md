@@ -2,6 +2,14 @@
 name: MPA
 description: Place de marché B2B
 slug: mpa
+skills:
+  - travail_d_equipe
+  - organisation
+  - symfony
+  - autonomie
+  - architecture-logicielle
+  - architecture-sgbdr
+  - communication
 ---
 
 # Mon Portail Achats

@@ -3,6 +3,11 @@ name: Architecture logicielle
 slug: architecture-logicielle
 technical: true
 icon: ic:baseline-architecture
+projects:
+  - mpa
+  - medicalplace
+  - apibook
+  - lands
 ---
 
 # Architecture logicielle

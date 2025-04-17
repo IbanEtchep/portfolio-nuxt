@@ -3,6 +3,8 @@ name: Administration systèmes Linux
 slug: administration-systemes-linux
 technical: true
 icon: material-symbols-light:data-table
+projects:
+  - spartacube
 ---
 
 # Administration systèmes Linux
