@@ -8,12 +8,12 @@ const experiences = [
     website: 'https://medialeads.fr/',
     description: `
     <p>
-      Pendant ces deux années, j'ai travaillé sur le développement d'une place de marché b2b dans le secteur
-      de la distribution d'énergie, dans une petite équipe de 4 personnes constituée d'une chef de projet et de 3
+      Pendant ces deux années, j'ai travaillé sur le développement d'une place de marché B2B dans le secteur
+      de la distribution d'énergie, dans une petite équipe de 4 personnes constituée d'une cheffe de projet et de 3
       développeurs.
     </p>
     <p>Vous trouverez une description plus détaillée du projet <a href='/projects/mpa' target='_blank'>ici</a>.</p>
-    Compétences travaillées:
+    Compétences travaillées :
     <ul>
       <li><a href='/skills/symfony' target='_blank'>Symfony</a></li>
       <li><a href='/skills/git' target='_blank'>Git</a></li>
@@ -35,15 +35,11 @@ const experiences = [
     website: 'https://esiea.fr/',
     description: `
     <p>
-      Formation en distanciel en ingénierie du logiciel avec un rythme d'1 jour de cours par semaine et 1 semaine complète
-      toutes les 5 semaines.
+      Formation en distanciel en ingénierie du logiciel avec un rythme d'un jour de cours par semaine et d'une semaine complète toutes les 5 semaines.
     </p>
 
     <p>
-    Les cours sont dispensés sous forme de modules où pendant plusieurs créneaux, un intervenant nous enseigne
-    sa discipline, avec souvent une grande partie de travaux pratiques, puis une évaluation sous forme de projet.
-    Les technologies étudiées sont variées. Il y a des cours de développement (rust, c, python, ionic, flutter) et des cours
-    plus généraux comme la blockchain, la cybersécurité, systèmes réseaux, anglais, droit, machine learning, kubernetes, ect.
+    Les cours sont dispensés sous forme de modules où, pendant plusieurs créneaux, un intervenant nous enseigne sa discipline, avec souvent une grande partie de travaux pratiques, puis une évaluation sous forme de projet. Les technologies étudiées sont variées. Il y a des cours de développement (Rust, C, Python, Ionic, Flutter) et des cours plus généraux comme la blockchain, la cybersécurité, les systèmes réseaux, l'anglais, le droit, le machine learning, Kubernetes, etc.
     </p>
     `
   },
@@ -68,11 +64,11 @@ const experiences = [
     description: `
     <p>
       Durant ces 3 mois, j'ai travaillé sur l'amélioration d'un projet de CRM dans le domaine médical. J'ai pu travailler sur des fonctionnalités comme
-      la synchronisation de calendrier avec google/outlook ou autre, l'intégration avec salesforce, ou bien l'intégration d'une nouvelle API de recherche de
+      la synchronisation de calendrier avec Google/Outlook ou autre, l'intégration avec Salesforce, ou bien l'intégration d'une nouvelle API de recherche de
       personnel ou établissements médicaux.
     </p>
 
-    Compétences travaillées:
+    Compétences travaillées :
     <ul>
       <li><a href='/skills/symfony' target='_blank'>Symfony</a></li>
       <li><a href='/skills/git' target='_blank'>Git</a></li>
@@ -92,7 +88,7 @@ const experiences = [
     description: `
     <p>
       La MIAGE est une formation qui combine l'informatique et la gestion. En parallèle de compétences techniques
-      comme l'algorithmique ou le développement C++, j'ai pu acquerir des bases dans divers domaines tels que la finance,
+      comme l'algorithmique ou le développement C++, j'ai pu acquérir des bases dans divers domaines tels que la finance,
       la comptabilité, la gestion de projet ou le droit.
     </p>
 
@@ -115,7 +111,7 @@ const experiences = [
       un outil fait pour les apiculteurs permettant un suivi et une gestion de leurs ruches.
     </p>
 
-    Compétences travaillées:
+    Compétences travaillées :
     <ul>
       <li><a href='/skills/symfony' target='_blank'>Symfony</a></li>
       <li><a href='/skills/git' target='_blank'>Git</a></li>
@@ -133,7 +129,7 @@ const experiences = [
     description: `
     <p>
       Durant ce stage de première année, j'ai pu réaliser le site internet de l'entreprise BAB Radiokom, utilisant Wordpress
-      et comprenant un thème personnalisé, et une partie e-commerce.
+      et comprenant un thème personnalisé et une partie e-commerce.
     </p>
     `
   },
@@ -158,7 +154,7 @@ const experiences = [
     website: 'https://www.betxepare.eus/',
     description: `
     <p>
-    Lycée général et technologique privé. Tous les cours y sont dispensés dans la langue basque. J'ai pu y acquérir des bases solides dans les matières scientifiques
+    Lycée général et technologique privé. Tous les cours y sont dispensés en langue basque. J'ai pu y acquérir des bases solides dans les matières scientifiques
     comme les mathématiques, la physique-chimie ou la SVT, mais aussi en langues avec l'anglais et l'espagnol.
     </p>
     `
