@@ -83,6 +83,6 @@ Je suis passé sur un autre projet peu après, et ce projet n’est aujourd’hu
 
 Selon moi, l’objectif initial de réussir à bien m’intégrer au projet a été atteint. Malgré sa taille, j’ai pu rapidement me familiariser avec le projet, adapter ma méthodologie de travail et monter en compétence. Cela m’a permis de gagner la confiance de l’équipe et de me voir attribuer des tâches clés comme l’intégration de Salesforce ou la mise en place du module MedicalData.
 
-Au-delà de la montée en compétence sur les outils comme Symfony ou Cypress, j’en tire une expérience très enrichissante en projet d’entreprises, en méthodologie de travail Agile et plus généralement en travail en équipe.
+Au-delà de la montée en compétence sur les outils comme Symfony ou Cypress, j’en tire une expérience très enrichissante en projet d’entreprise, en méthodologie de travail agile et plus généralement en travail en équipe. Mon implication a également été bénéfique à l'entreprise, car elle a pu augmenter la vélocité du projet durant 4 mois. Cela a permis de livrer et facturer davantage de fonctionnalités au client.
 
 L’entreprise a été très contente de mon travail et m’a proposé de me garder en CDI ou en alternance si je souhaitais poursuivre mes études, ce que j’ai fait. Aujourd’hui, je travaille sur un autre projet appelé Mon Portail Achats, sur lequel j’ai été présent depuis le tout début jusqu’à sa mise en production.
